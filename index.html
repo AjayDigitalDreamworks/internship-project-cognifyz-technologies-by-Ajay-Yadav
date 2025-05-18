@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Technologies Intern program :- Interactive Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Optional JS Bundle for interactive components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">Ajay</div>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#postsSection">API Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Build the Web of Tomorrow</h1>
+            <p style="color: white; font-size: 18px;">Join us and level up your front-end skills with real projects and
+                expert mentorship.</p>
+            <button id="bgToggleBtn">Toggle Background</button>
+        </div>
+    </section>
+
+    <section id="postsSection" class="posts-section">
+        <h2 style="color: #00bcd4;">Latest Posts using API</h2>
+        <div class="container">
+            <div class="row" id="postRow">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to work with us? Send a message!</p>
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="email" id="email" placeholder="Your Email" required />
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <div class="error" id="formError"></div>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Ajay</h3>
+                <p>Building innovative web and AI experiences with passion and precision.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
